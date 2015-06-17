@@ -32,7 +32,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	#hero-img img {
 		margin-top: 50px;
 		margin-bottom: 30px;
-		max-width: 320px;
+		max-width: 300px;
 	}
 }
 
@@ -46,7 +46,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 @media (max-width: 767px) {
 	#hero-bloc {
-		min-height: 480px;
+		min-height: 600px;
 	}
 	#hero-bloc h1 {
 		font-size: 35px !important;
@@ -113,6 +113,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 @media (max-width: 767px) {
 	#bloc-3 #box {
 		padding-right: 14px;
+		padding-bottom: 0;
 	}
 }
 
@@ -136,6 +137,11 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	color: #9DB0E5;
 }
 
+@media (max-width: 767px) {
+	#footer {
+		margin-top: 0;
+	}
+}
 
 
 
