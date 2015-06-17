@@ -136,6 +136,11 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #mc_embed_signup #mce-EMAIL::-moz-placeholder {
 	color: #9DB0E5;
 }
+#mc-embedded-subscribe {
+	margin-right: auto !important;
+	margin-left: auto !important;
+	height: 40px !important;
+}
 
 @media (max-width: 767px) {
 	#footer {
